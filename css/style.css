@@ -1,0 +1,320 @@
+*{
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+}
+/*-------header styles-------*/
+
+.head img{
+    
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+   
+
+}
+li.nav{
+    margin-top: 50px;
+    list-style: none;
+    text-align: right;
+}
+.nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    border-bottom:  3px solid white;
+    font-size: 15px;
+    transition: all .5 ease
+    padding-top:40px;
+}
+.nav a:hover{
+    border-bottom:  3px solid #26ace3;
+
+}
+
+
+
+
+/*-------header styles-------*/
+/*-------footer styles-------*/
+
+.footer{
+    border-top:3px solid #26ace3;
+}
+.smIcons{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    padding-top: 20px;
+    text-align: center;
+}
+.footCont{
+    text-align: center;
+    padding-top: 20px;
+}
+.footCont h3{
+    margin-bottom: 5px;
+}
+.footLogo{
+    text-align: center;
+    margin-top: 10px;
+}
+/*-------footer styles-------*/
+/*-------index styles-------*/
+
+.slidrBtn{
+    text-align: center;
+    padding: 5px;
+}
+.dot{
+    font-size: 8px;
+    line-height: 1em;
+}
+#prev, #next, 
+#dot1, #dot2, 
+#dot3, #dot4, 
+#dot5{
+    color: black;
+}
+#prev, #next{
+    padding: 10px;
+}
+.homeCont{
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.homeCont h2,p{
+    text-align: center;
+
+}
+.services{
+    display: inline-block;
+    padding: 20px;
+    align-items: center;
+    
+}
+.services img{
+    opacity: 0.6;
+    transition: all .6s ease-in-out;
+    margin:  10px;
+}
+.services img:hover{
+    opacity: 1;
+}
+.cta{
+    text-align: center;
+}
+.cta a.button{
+    margin-top: 30px;
+    border: 2px solid;
+    margin-bottom: 40px;
+    transition: all .5s ease;
+    
+}
+.cta a.button:hover{
+    border: 2px solid #26ace3;
+}
+/*-------index styles-------*/
+/*-------pricing styles-------*/
+
+.heroPricing img{
+    width: 100%;
+    background-size: contain;
+
+}
+.container{
+    margin-top: 20px;
+    width: 100%;
+
+}
+.inCont{
+ 
+    padding: 0 auto;
+    text-align: center;
+
+
+}
+.inCont p{
+    
+    margin-top: 20px;
+    text-align: left;
+
+
+}
+.inCont h6{
+    
+    margin-top: 20px;
+    width:300px;
+    text-align: center;
+    margin-left: 490px;
+
+
+}
+    .inCont img{
+        width:250px;
+        float: left;
+
+    }
+}
+.prices{
+    border-bottom: 3px solid grey;
+    padding: 15px;
+}
+.prices{
+    border-bottom: 3px solid grey;
+    padding: 15px;
+}
+
+/*-------pricing styles-------*/
+/*-------about styles-------*/
+
+.abt{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.heroAbout img{
+    width: 100%;
+}
+
+/*-------about styles-------*/
+/*-------contact styles-------*/
+
+.contactHead{
+    text-align: center;
+    border-bottom: 3px solid #26ace3;
+    padding-bottom: 20px;
+}
+.card{
+    padding: 25px;
+    margin-top:80px;
+}
+.card h3,p{
+    margin-bottom: 5px;
+}
+.card h3,h4{
+    text-align: center;
+}
+.card h3{
+    font-weight: bold;
+}
+form{
+    padding: 25px;
+    margin-top:0%;
+    height: 300px;
+    background: lightgrey;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    text-align: center;
+}
+select{
+    width: 90%;
+    color: grey;
+    margin: 0 auto;
+}
+input{
+    width: 90%;
+    color: black;
+    margin: 0 auto;
+}
+input#sav{
+    color: #26ace3;
+    width: 120px;
+    height: 40px;
+    background: none;
+    border: 2px solid black;
+    transition: all 1s ease;
+}
+input#sav:hover{
+    border: 2px solid #26ace3;
+    color: black;
+}
+.formsheet{
+    margin-bottom: 5%;
+}
+/*-------contact styles-------*/
+/*-------modal styles-------*/
+
+
+#modal{
+    background-size: cover; 
+}
+
+#modalContainer { 
+    width: 100%; 
+    height: 100%;
+    text-align: center; 
+    margin: 0 auto; 
+    position: fixed; 
+    top: 0px; 
+    left: 0px; 
+    display: none; 
+    align-items: center;
+    justify-content: center; 
+    background: rgba(0,0,0,0.7);
+} 
+#modal {
+    min-width: 300px; 
+    margin: 0 auto; 
+    background: transparent; 
+    position: relative; 
+}
+
+#modal .closeIcon {
+    position: absolute;
+    top: -12px; 
+    right: -25px; 
+    font-size: 30px; 
+    color: #26ace3;
+}
+
+
+#modalImage{
+    max-width: 100%;
+  }
+
+
+@media only screen and (max-width: 700px){
+    #modal .closeIcon {
+        position: absolute;
+        top: 90%; 
+        right: 46%; 
+        font-size: 30px; 
+        color: orangered;
+    }
+}
+
+.teams{
+     
+float: left;
+width: 1200px;
+}
+.team img:hover {
+     
+opacity: 0.8;
+}
+.team img {
+ width: 300px;    
+height: 300px;
+padding: 25px;
+margin-bottom: 10px;
+
+}
+img{
+    max-width: 100%;
+}
+
+
+.team p{
+font-weight: 600;
+margin-bottom: 20px;
+font-size: 18px;
+text-align: center;
+}
+.team h3{
+    margin-top: 130px;
+
+}
+
+

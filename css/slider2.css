@@ -1,0 +1,136 @@
+
+.slider {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.slide_viewer {
+  height: 700px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide_group {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.slide {
+  display: none;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.slide:first-child {
+  display: block;
+}
+
+.slide:nth-of-type(1) {
+  background: url(../imgs/slider6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slide:nth-of-type(2) {
+  background: url(../imgs/slider7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slide:nth-of-type(3) {
+  background: url(../imgs/slider8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slide:nth-of-type(4) {
+  background: url(../imgs/slider3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slide_buttons {
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+a.slide_btn {
+  color: black;
+  font-size: 30px;
+  margin: 0 0.175em;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.slide_btn.active, .slide_btn:hover {
+  color: orangered;
+  cursor: pointer;
+}
+
+.directional_nav {
+  height: 50px;
+  margin: 0 auto;
+  max-width: 960px;
+  position: relative;
+  top: -340px;
+}
+
+.previous_btn {
+  bottom: 0;
+  left: 80px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+}
+
+.next_btn {
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  right: 80px;
+  top: 0;
+}
+
+.previous_btn, .next_btn {
+  cursor: pointer;
+  height: 65px;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.4s ease-in-out;
+  -moz-transition: opacity 0.4s ease-in-out;
+  -ms-transition: opacity 0.4s ease-in-out;
+  -o-transition: opacity 0.4s ease-in-out;
+  transition: opacity 0.4s ease-in-out;
+  width: 65px;
+}
+
+.previous_btn:hover, .next_btn:hover {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 767px) {
+  .previous_btn {
+    left: 30px;
+  }
+  .next_btn {
+    right: 5px;
+  }
+  .slide_viewer {
+    height: 240px;
+    overflow: hidden;
+    position: relative;
+  }
+  .directional_nav {
+    height: 40px;
+    margin: 0 auto;
+    max-width: 960px;
+    position: relative;
+    top: -130px;
+  }
+}
